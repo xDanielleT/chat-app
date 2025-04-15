@@ -4,7 +4,7 @@ import Login from './components/Login';
 import ChatRoom from './components/ChatRoom';
 import './App.css';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://chat-app-g19c.onrender.com');
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
