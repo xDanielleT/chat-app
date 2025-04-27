@@ -30,10 +30,6 @@ This is a real-time chat application built using **React**, **Express**, **Socke
 - Responsive design for desktop and mobile
 
 ---
-# Live Demo 
-Check out the live demo: [Chat App](https://chat-8quxi00e6-danielles-projects-b692508c.vercel.app/)
-
----
 
 ## 📦 Deployment
 
