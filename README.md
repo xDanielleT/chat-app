@@ -10,7 +10,7 @@
 This is a real-time chat application built using **React**, **Express**, **Socket.io**, and **Node.js**. The project demonstrates real-time communication between users over WebSockets.
 
 ## 🌎 Live Demo
-🔗 [Chat App](https://chat-8quxi00e6-danielles-projects-b692508c.vercel.app/)
+🔗 [Chat App](https://chat-app-alpha-virid-53.vercel.app/)
 
 ---
 
