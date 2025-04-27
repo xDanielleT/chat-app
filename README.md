@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Real-Time Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://react.dev/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-4.x-black?logo=socketdotio)](https://socket.io/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com/)
+[![Render](https://img.shields.io/badge/Backend%20Hosted-Render-blueviolet?logo=render)](https://render.com/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+This is a real-time chat application built using **React**, **Express**, **Socket.io**, and **Node.js**. The project demonstrates real-time communication between users over WebSockets.
 
-### `npm start`
+## 🌎 Live Demo
+🔗 [Chat App](https://chat-8quxi00e6-danielles-projects-b692508c.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tech Stack
+- Frontend: [React](https://react.dev/), [Vite](https://vitejs.dev/), [Socket.io-client](https://socket.io/docs/v4/client-api/)
+- Backend: [Express](https://expressjs.com/), [Socket.io](https://socket.io/)
+- Hosting: [Vercel](https://vercel.com/) (frontend), [Render](https://render.com/) (backend)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Features
+- Real-time chatting with multiple users
+- Displays when users are typing
+- Join and leave notifications
+- Chat history stored on the server
+- Clean and simple UI
+- Responsive design for desktop and mobile
 
-### `npm run build`
+---
+# Live Demo 
+Check out the live demo: [Chat App](https://chat-8quxi00e6-danielles-projects-b692508c.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend:
+- Hosted on Vercel
+- Root directory: `/frontend`
+- Build command: `npm run build`
+- Output directory: `buiid`
 
-### `npm run eject`
+### Backend:
+- Hosted on Render
+- Root directory: `/backend`
+- Build command: `npm install`
+- Start command: `node app.js`
+- Environment variable: `PORT`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshot
+![Screenshot of chat-app](https://i.imgur.com/3RJboM7.png)
