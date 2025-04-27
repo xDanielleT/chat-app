@@ -4,7 +4,11 @@ import Login from './components/Login';
 import ChatRoom from './components/ChatRoom';
 import './App.css';
 
-const socket = io('https://chat-app-g19c.onrender.com');
+
+const socket = io('https://chat-app-a6si.onrender.com', {
+  transports: ['websocket'],
+});
+
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -14,7 +18,6 @@ function App() {
   const [typingUsers, setTypingUsers] = useState([]);
 
   useEffect(() => {
-    // Socket event listeners
     socket.on('userJoined', (data) => {
       setUsers(data.users);
       addNotification(data.message);

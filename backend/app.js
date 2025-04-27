@@ -9,9 +9,13 @@ app.use(cors());
 app.use(express.json());
 
 const server = http.createServer(app);
+app.use(cors({
+  origin: ["http://localhost:3000", "https://monumental-tarsier-41bacd.netlify.app/"]
+}));
+
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://monumental-tarsier-41bacd.netlify.app/"],
     methods: ["GET", "POST"]
   }
 });
